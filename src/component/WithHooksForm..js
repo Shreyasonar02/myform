@@ -31,9 +31,7 @@ const WithHooksForm = () => {
     },
     resolver: yupResolver(schema),
   });
-  const onSubmit = (data) => {
-    console.log('Form submitted with data:', data);
-  };
+ const onSubmit = data => alert('Form was submitted: ' + JSON.stringify(data));
   
 
   return (
