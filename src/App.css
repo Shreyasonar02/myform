@@ -36,3 +36,57 @@
     transform: rotate(360deg);
   }
 }
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.Registration-form {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(56, 54, 54, 0.1);
+  background-color: antiquewhite;
+}
+
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.error {
+  .error-message {
+    color: red;
+    font-size: 0.8rem;
+    margin: 5px 0;
+  }
+}
+
+button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
